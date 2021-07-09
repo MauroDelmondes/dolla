@@ -18,8 +18,8 @@ const Sidebar = ({ isOpen, toggle }) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to="aboout" onClick={toggle}>
-                        Aboout
+                    <SidebarLink to="about" onClick={toggle}>
+                        About
                     </SidebarLink>
                     <SidebarLink to="discover" onClick={toggle}>
                         Discover

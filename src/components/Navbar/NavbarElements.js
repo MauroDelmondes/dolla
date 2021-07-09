@@ -5,7 +5,7 @@ import { Link as LinkS } from 'react-scroll';
 export const Nav = styled.nav`
     background: #000000;
     height: 80px;
-    // margin-top: -80px;
+    margin-top: -80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +25,7 @@ export const NavbarContainer = styled.div`
     height: 80px;
     z-index: 1;
     width: 100%;
-    padding 0 24px;
+    padding: 0 24px;
     max-width: 1100px;
 `;
 
@@ -47,7 +47,7 @@ export const MobileIcon = styled.div`
     @media screen and (max-width: 768px) {
         display: block;
         position: absolute;
-        top 0;
+        top: 0;
         right: 0;
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
